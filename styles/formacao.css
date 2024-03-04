@@ -1,0 +1,33 @@
+.formacao {
+    padding: 1rem 1.6rem;
+    font-size: 0.875rem;
+}
+
+.formacao__resumo {
+    display: flex;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+}
+
+.formacao__resumo img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.formacao__resumo>div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.formacao__resumo--item>span {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: var(--texto-primario);
+}
+
+.formacao__resumo--item>span:last-child {
+    color: var(--texto-secundario);
+}
+
+

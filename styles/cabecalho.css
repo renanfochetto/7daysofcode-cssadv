@@ -1,0 +1,132 @@
+.cabecalho {
+    line-height: 1.25;
+}
+
+.cabecalho.info__perfil {
+    font-size: 62.5%;
+}
+
+.info__perfil .cabecalho__imagem img {
+    width: min(100%, 782px);
+    height: 196px;
+    object-fit: cover;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+.cabecalho__foto,
+.cabecalho__principal,
+.cabecalho__conexoes,
+.cabecalho__acoes {
+    padding: 8px 24px 0;
+}
+
+.cabecalho__foto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__foto-perfil img{
+    width: 156px;
+    height: 156px;
+    margin-top: -112px;
+    border: 4px solid var(--fundo-card);
+    border-radius: 50%;
+}
+
+.cabecalho__foto-notificacao {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: .25s ease;
+    cursor: pointer;
+}
+
+.cabecalho__foto-notificacao:hover {
+    background-color: var(--fundo-card-ativo);
+}
+
+.cabecalho__principal {
+    display: grid;
+    grid-template-areas:
+        "pessoal carreira"
+        "local carreira";
+}
+
+.cabecalho__info {
+    grid-area: pessoal;
+}
+.cabecalho__info h1{
+    font-size: 2.4em;
+}
+
+.cabecalho__info div{
+    font-size: 1.6em;
+}
+
+.caebcalho__info .cabecalho__texto--pequeno {
+    font-size: 1.4em;
+    color: var(--texto-secundario);
+}
+
+.cabecalho__carreira{
+    grid-area: carreira;
+}
+
+ul.cabecalho__carreira li a{
+    display: flex;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+ul.cabecalho__carreira li a img{
+    width: 32px;
+    height: 32px;
+    margin-right: .6rem;
+}
+
+.cabecalho__carreira img {
+    border-radius: 6px;
+}
+
+.cabecalho__local {
+    grid-area: local;
+    font-size: 1.4em;
+}
+
+.cabecalho__local--contato {
+    position: relative;
+}
+
+.cabecalho__local--contato > strong,
+.cabecalho__conexoes > span > strong {
+    color: gray;
+    font-size: 0.8rem;
+    margin-right: 0.6em;
+}
+
+.cabecalho__conexoes > span > strong {
+    margin-left: 0.6em;
+}
+
+.cabecalho__conexoes {
+    display: flex;
+    position: relative;
+    padding-top: 4px;
+    font-size: 1.4em;
+    color: var(--primario);
+}
+
+.cabecalho__conexoes li:last-child,
+.cabecalho__local .cabecalho__local--contato {
+    margin-left: .6rem;
+}
+
+.cabecalho__acoes {
+    padding: 8px 24px 24px;
+}
+.cabecalho__acoes button:last-child{
+    margin-left: .6rem;
+}
+
+

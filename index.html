@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./assets/linkedin.ico" />
+    <title>7 Days of Code - Linkedin</title>
+</head>
+
+<body>
+
+    <!--Header Navegação-->
+    <header class="navegacao">
+        <!--Navegação Ícone e Busca-->
+        <div class="navegacao__busca">
+            <span class="navegacao__logo"></span>
+            <span class="navegacao__busca--icone"></span>
+            <input class="navegacao__input" placeholder="Pesquisar">
+        </div>
+        <!--Navegação Itens-->
+        <nav>
+            <div class="navegacao__item">
+                <span aria-hidden="true" class="navegacao__icone inicio"></span>
+                <a href="#">Início</a>
+            </div>
+            <div class="navegacao__item">
+                <span class="navegacao__icone minha-rede"></span>
+                <a href="#">Minha Rede</a>
+            </div>
+            <div class="navegacao__item">
+                <span class="navegacao__icone vagas"></span>
+                <a href="#">Vagas</a>
+            </div>
+            <div class="navegacao__item">
+                <span class="navegacao__icone mensagens"></span>
+                <a href="#">Mensagens</a>
+            </div>
+            <div class="navegacao__item">
+                <span class="navegacao__icone notificacoes"></span>
+                <a href="#">Notificações</a>
+            </div>
+            <div class="navegacao__item">
+                <span class="navegacao__icone solucoes"></span>
+                <a href="#">Soluções</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main Containers-->
+    <main>
+
+        <!--Container Principal-->
+        <section class="principal">
+
+            <!--Início Cabeçalho-->
+            <section class="container cabecalho info__perfil">
+                <!--Imagem do Topo do Cabeçalho-->
+                <div class="cabecalho__imagem">
+                    <img class="imagem__topo" height="230px" width="940px" src="./assets/expressionism_reference.jpg" alt="">
+                </div>
+                <!--Foto do Perfil-->
+                <div class="cabecalho__foto">
+                    <div class="cabecalho__foto-perfil">
+                        <img src="https://github.com/renanfochetto.png" alt="Foto do Perfil de Renan Fochetto">
+                        <span class="online"></span>
+                    </div>
+                    <div class="cabecalho__foto-notificacao">
+                        <span class="icone icone-notificacao"></span>
+                    </div>
+                </div>
+                <!--Informações Principais do Cabeçalho-->
+                <div class="cabecalho__principal">
+                    <!--Textos e Informações-->
+                    <div class="cabecalho__info">
+                        <h1>Renan Fochetto</h1>
+                        <div class="cabecalho__texto--medio">
+                            Estudante de Análise e Desenvolvimento de Sistemas HTML | CSS | Javascript
+                        </div>
+                        <div class="cabecalho__texto--pequeno">
+                            #html #css #javascript #front-end
+                        </div>
+                    </div>
+                    <!--Informações de Instituições Atuais-->
+                    <ul class="cabecalho__carreira">
+                        <li>
+                            <a href="#">
+                                <img src="./assets/logoalura.png" alt="">
+                                <h2>Alura - Formação Front-End</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="/assets/estacio-logo.jpg" alt="">
+                                <h2>Análise e Desenvolvimento de Sistemas</h2>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--Informações de Endereço e Localização-->
+                    <div class="cabecalho__local">
+                        <span>Guarulhos, São Paulo - Brasil</span>
+                        <span class="cabecalho__local--contato">
+                            <strong>•</strong>
+                            <a href="#">Informações de Contato</a>
+                        </span>
+                    </div>
+                </div>
+                <!--Dados de Conexão e Seguidores-->
+                <div class="cabecalho__conexoes">
+                    <span>??? Seguidores <strong>•</strong> + de ??? Conexões</span>
+                </div>
+                <!--Botões de Ação do Cabeçalho-->
+                <div class="cabecalho__acoes">
+                    <button class="botao__primario">Mensagem</button>
+                    <button class="botao__secundario">Mais</button>
+                </div>
+            </section>
+
+            <!--Destaques-->
+            <section class="container destaques">
+                <h2 class="titulo">Destaques</h2>
+                <!--Colunas Destaques-->
+                <div class="destaques__colunas">
+                    <!--Coluna Esquerda-->
+                    <div class="destaques__colunas--publicacoes">
+                        <h4 class="destaques__colunas--titulo">Publicação</h4>
+                        <h2 class="destaques__colunas--subtitulo">Legenda da primeira publicação</h2>
+                        <img class="destaques__colunas--imagem" src="./assets/publicacao-1.jpg" alt="Imagem Ilustrativa dos Destaques">
+                        <div class="destaques__colunas--interacoes">                    
+                            <span class="destaques__reacoes">
+                                <img src="./assets/Reações.svg" alt="">
+                                <p class="destaques__reacoes--quantidade">124</p>
+                            </span>
+                            <span class="destaques__comentarios">5 comentários</span>
+                        </div>
+                    </div>
+                    <!--Coluna Central-->
+                    <div class="destaques__colunas--publicacoes">
+                        <h4 class="destaques__colunas--titulo">Publicação</h4>
+                        <h2 class="destaques__colunas--subtitulo">Legenda da segunda publicação</h2>
+                        <img class="destaques__colunas--imagem" src="./assets/publicacao-2.jpg" alt="Imagem Ilustrativa dos Destaques">
+                        <div class="destaques__colunas--interacoes">                    
+                            <span class="destaques__reacoes">
+                                <img src="./assets/Reações.svg" alt="">
+                                <p class="destaques__reacoes--quantidade">124</p>
+                            </span>
+                            <span class="destaques__comentarios">5 comentários</span>
+                        </div>
+                    </div>
+                    <!--Coluna Direita-->
+                    <div class="destaques__colunas--publicacoes">
+                        <h4 class="destaques__colunas--titulo">Publicação</h4>
+                        <h2 class="destaques__colunas--subtitulo">Legenda da terceira publicação</h2>
+                        <img class="destaques__colunas--imagem" src="./assets/publicacao-3.jpg" alt="Imagem Ilustrativa dos Destaques">
+                        <div class="destaques__colunas--interacoes">                    
+                            <span class="destaques__reacoes">
+                                <img src="./assets/Reações.svg" alt="">
+                                <p class="destaques__reacoes--quantidade">124</p>
+                            </span>
+                            <span class="destaques__comentarios">5 comentários</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Atividades-->
+            <section class="container atividades">
+                <h2 class="titulo">Atividades</h2>
+                <a href="#" class="atividades__subtitulo">??? seguidores</a>
+                <!--Lista de Publicações-->
+                <ul class="atividades__publicacoes">
+                    <!--Publicação-->
+                    <li class="atividades__publicacoes--item">
+                        <div class="atividades__publicacoes--titulo">Nome Sobrenome publicou isso • 1 sem</div>
+                        <div class="atividades__publicacoes--conteudo">
+                            <div>
+                                <img class="atividades__publicacoes--imagem" src="./assets/publicacao-1.jpg" alt="">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...
+                                </p>        
+                            </div>
+                            <!--Interações-->
+                            <div class="destaques__colunas--interacoes">
+                                <div class="destaques__reacoes">
+                                    <img src="./assets/Reações.svg" alt="">
+                                    <span class="destaques__reacoes--quantidade">124</span>
+                                </div>
+                                <div class="destaques__comentarios">5 comentários</div>        
+                            </div>
+                        </div>
+                    </li>
+                    <!--Publicação-->
+                    <li class="atividades__publicacoes--item">
+                        <div class="atividades__publicacoes--titulo">Nome Sobrenome publicou isso • 1 sem</div>
+                        <div class="atividades__publicacoes--conteudo">
+                            <div>
+                                <img class="atividades__publicacoes--imagem" src="./assets/publicacao-2.jpg" alt="">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...
+                                </p>        
+                            </div>
+                            <!--Interações-->
+                            <div class="destaques__colunas--interacoes">
+                                <div class="destaques__reacoes">
+                                    <img src="./assets/Reações.svg" alt="">
+                                    <span class="destaques__reacoes--quantidade">124</span>
+                                </div>
+                                <div class="destaques__comentarios">5 comentários</div>        
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!--Rodapé da Seção-->
+                <a href="#" class="atividades__texto">Exibir todas as atividades</a>
+            </section>
+
+            <!--Sobre Mim-->
+            <section class="container sobremim">
+                <h2 class="titulo">Sobre</h2>
+                <p>
+                    Olá, me chamo Renan Fochetto e nesse momento estou em processo de transição de carreira. Me formei
+                    em Psicologia pelas Faculdades de Guarulhos em 2008, atuei como Psicólogo Clinico e Social.
+                    <br>
+                    <br>
+                    Posteriormente migrei para a área de Eventos e desenvolvi muitas funcões nessa área, desde Consultor
+                    Comercial até Coordenador de Projetos e Eventos.
+                    <br>
+                    <br>
+                    Em 2023 comecei a estudar temas relacionados a Tecnologia e Programação e então decidi estudar com
+                    mais afinco com a finalidade de migrar para essa área.
+                    <br>
+                    <br>
+                    Tenho alguns cursos já finalizados na área, atualmente faço estudo Análise e Desenvolvimento de Sistemas
+                    na Universidade Estácio, também faço parte da formação Front-End da Escola de Tecnologia Alura e estou
+                    em busca de uma oportunidade profissional.
+                    <br>
+                    <br>
+                </p>
+            </section>
+
+            <!--Experiência-->
+            <section class="container experiencia">
+                <h2 class="titulo">Experiências</h2>
+                <!--Lista das Experiências-->
+                <div class="experiencia__lista">
+                    <div class="experiencia__item">
+                        <div class="experiencia__resumo">
+                            <img src="./assets/empresa-foto.svg" alt="">
+                            <div class="experiencia__resumo--info">
+                                <h3 class="experiencia__resumo--titulo">Principais Experiências</h3>
+                                <span class="experiencia__resumo--tempo">Psicologia e Eventos</span>
+                            </div>
+                        </div>
+                        <!--Descrição Experiência-->
+                        <ul class="experiencia__itens">
+                            <!--Cargo Experiência-->
+                            <li class="experiencia__cargo">
+                                <h3>Psicólogo Clínico</h3>
+                                <span class="experiencia__tipo">Autônomo</span>
+                                <span class="experiencia__tempo">Jan de 2009 até Dezembro de 2016 • 7 anos</span>
+                                <span class="experiencia__localizacao">São Paulo, SP - Brasil</span>
+                            </li>
+                            <!--Cargo Experiência-->
+                            <li class="experiencia__cargo">
+                                <h3>Coordenador de Eventos e Projetos</h3>
+                                <span class="experiencia__tipo">Stand8 - Projetos e Montagens</span>
+                                <span class="experiencia__tempo">Jan de 2019 até Nov de 2022 • 4 anos</span>
+                                <span class="experiencia__localizacao">São Paulo, SP - Brasil</span>
+                            </li>
+                            <!--Cargo Experiência-->
+                            <li class="experiencia__cargo">
+                                <h3>Coordenador Comercial</h3>
+                                <span class="experiencia__tipo">Stand8 - Projetos e Montagens</span>
+                                <span class="experiencia__tempo">Jan de 2018 até Nov de 2018 • 11 meses</span>
+                                <span class="experiencia__localizacao">São Paulo, SP - Brasil</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--Formação-->
+            <section class="container formacao">
+                <h2 class="titulo">Formação Academica</h2>
+                <div class="formacao__resumo">
+                    <img src="./assets/fig.jpeg" alt="">
+                    <div class="formacao__resumo--item">
+                        <h3>Faculdades de Guarulhos</h3>
+                        <span>Psicologia</span>
+                        <span>2004 a 2008</span>
+                    </div>
+                </div>
+            </section>
+
+            <!--Idiomas-->
+            <section class="container idiomas">
+                <h2 class="titulo">Idiomas</h2>
+                <ul>
+                    <li class="idiomas__lista">
+                        <p>Espanhol</p>
+                        <span>Fluente</span>
+                    </li>
+                    <li class="idiomas__lista">
+                        <p>Inglês</p>
+                        <span>Intermediário</span>
+                    </li>
+                </ul>
+            </section>
+
+        </section>
+
+        <!--Barra Lateral-->
+        <aside class="barra-lateral">
+
+            <!--Contatos Vistos-->
+            <section class="barra-lateral__conteudo">
+                <h2>As pessoas também viram</h2>
+                <div class="barra-lateral__info">
+                    <img src="./assets/sherlockholmes.jpg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>Sherlock Holmes</h3>
+                        <p>Detetive Consultor Extraordinário e Descobridor de Enigmas</p>
+                        <button>Enviar Mensagem</button>
+                    </div>
+                </div>
+                <div class="barra-lateral__info">
+                    <img src="./assets/robin-hood.jpg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>Robin Hood</h3>
+                        <p>Arqueiro da Generosidade e Campeão Olímpico de Tiro ao Alvo</p>
+                        <button>Enviar Mensagem</button>
+                    </div>
+                </div>
+                <div class="barra-lateral__info">
+                    <img src="./assets/peterpan.jpg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>Peter Pan</h3>
+                        <p>Diretor de Aventuras Mágicas e Transcendentais</p>
+                        <button>Enviar Mensagem</button>
+                    </div>
+                </div>
+                <div class="barra-lateral__info">
+                    <img src="./assets/pequenasereia.jpg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>A Pequena Sereia</h3>
+                        <p>Especialista em Oceanografia Encantada e Nadadora Profissional</p>
+                        <button>Enviar Mensagem</button>
+                    </div>
+                </div>
+                <div class="barra-lateral__info">
+                    <img src="./assets/frankenstein.jpg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>Frankenstein</h3>
+                        <p>Engenheiro de Criaturas Extraordinárias e Incompreensíveis</p>
+                        <button>Enviar Mensagem</button>
+                    </div>
+                </div>
+            </section>
+
+            <!--Sugestões de Contatos-->
+            <section class="barra-lateral__conteudo">
+                <h2>Pessoas que talvez você conheça</h2>
+                <div class="barra-lateral__info">
+                    <img src="./assets/jamesbond.jpg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>James Bond</h3>
+                        <p>Agente Secreto Supremo e Magnânimo da Espionagem</p>
+                        <button>Conectar</button>
+                    </div>
+                </div>
+                <div class="barra-lateral__info">
+                    <img src="./assets/Dracula.png" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>Conde Drácula</h3>
+                        <p>Líder Carismático dos Seres Noturnos e Sinistros</p>
+                        <button>Conectar</button>
+                    </div>
+                </div>
+                <div class="barra-lateral__info">
+                    <img src="./assets/bruxama.jpeg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>Bruxa Má do Oeste</h3>
+                        <p>Feiticeira Suprema da Escuridão e da Melancolia</p>
+                        <button>Conectar</button>
+                    </div>
+                </div>
+                <div class="barra-lateral__info">
+                    <img src="./assets/flashgordon.jpg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>Flash Gordon</h3>
+                        <p>Explorador Cósmico e Herói Interplanetário</p>
+                        <button>Conectar</button>
+                    </div>
+                </div>
+                <div class="barra-lateral__info">
+                    <img src="./assets/kingkong.jpg" alt="">
+                    <div class="barra-lateral-amigos">
+                        <h3>King Kong</h3>
+                        <p>Rei das Selvas Urbanas e Protetor dos Gigantes</p>
+                        <button>Conectar</button>
+                    </div>
+                </div>
+            </section>
+
+        </aside>
+
+    </main>
+    
+</body>
+
+</html>

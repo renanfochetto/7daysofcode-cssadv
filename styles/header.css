@@ -1,0 +1,138 @@
+header.navegacao{
+    height: 52px;
+    background: var(--fundo-card);
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacao__busca{
+    width: 370px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navegacao__logo{
+    cursor: pointer;
+    background-image: url('../assets/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px;
+    margin-right: 8px;
+}
+
+.navegacao__busca--icone{
+    width: 18px;
+    height: 18px;
+    background-image: url('../assets/lupa.svg');
+    position: absolute;
+    left: 50px;
+}
+
+.navegacao__input{
+    width: 280px;
+    height: 34px;
+    background: var(--input);
+    border: none;
+    border-radius: .3rem;
+    padding-left: 2rem;
+}
+
+.navegacao__input::placeholder{
+    color: var(--texto-secundario);
+}
+
+.navegacao nav{
+    display: flex;
+}
+
+.navegacao__item{
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacao__item:last-child{
+    margin-left: .2rem;
+    border-left: 1px solid var(--texto-secundario);
+}
+
+.navegacao__item a{
+    text-align: center;
+    width: 80px;
+    font-size: .8rem;
+    color: var(--texto-secundario);
+    transition: color .3s ease;
+}
+
+.navegacao__item a:hover{
+    color: var(--texto-principal);
+}
+
+.navegacao__icone{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+
+span.inicio{
+    background-image: url('../assets/home.svg');
+}
+
+span.minha-rede{
+    background-image: url('../assets/rede.svg');
+}
+
+span.vagas{
+    background-image: url('../assets/vagas.svg');
+}
+
+span.mensagens{
+    background-image: url('../assets/mensagens.svg');
+}
+
+span.notificacoes{
+    background-image: url('../assets/notificacoes.svg');
+}
+
+span.solucoes{
+    background-image: url('../assets/solucoes.svg');
+}
+
+@media(max-width: 1024px){
+    header.navegacao{
+        padding: 0 4rem;
+    }
+
+    .navegacao__input{
+        display: none;
+    }
+
+    .navegacao__busca--icone{
+        transform: translate(100%, -20%);
+    }
+
+    .navegacao__busca--icone::before{
+        content: "Pesquisar";
+        color: var(--texto-secundario);
+        font-size: .75rem;
+        position: absolute;
+        left: 50%;
+        transform: translate(-40%, 165%);
+    }
+
+    .navegacao__busca--icone::before:hover{
+        color: var(--texto-principal);
+    }
+}
+
+@media(max-width: 680px){
+    .navegacao__busca--icone{
+        display: none;
+    }
+}
